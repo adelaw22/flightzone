@@ -352,12 +352,12 @@ body .top_header{
     
 }
 .mid1 img{
-    width:749px;
+    width:669px;
     height:380px;
 }
 .mid2{
     float:right;
-    width:680px;
+    width:650px;
     height:380px;
 }
 .mid2 h1{
@@ -402,7 +402,7 @@ body .top_header{
 }
 .txt-2{
     float: left;
-    width:665px;
+    width:625px;
     height:380px;
 }
 .txt-2 h1 {
@@ -439,7 +439,7 @@ body .top_header{
 }
 .stage_y img{
     float:right;
-    width: 749px;
+    width:679px;
     height:380px;
 }
 .form_end{
@@ -510,10 +510,10 @@ body .top_header{
 .last_item p{
     font-family: 'Raleway' , sans-serif;
     font-size:14px;
-    margin-top:0px;
-    margin-bottom:10px;
+    margin-top:8px;
     text-align: center;
     color:rgb(92, 93, 98);
+    font-weight:700;
 }
 
 
@@ -828,7 +828,7 @@ body .top_header{
         width: 50%;
     }
 }
-@media only screen  and (min-width:1024px) and (max-width:1366px) {
+@media only screen  and (min-width:1024px) and (max-width:1365px) {
     .top_info .top_txt {
         font-size: 30px;
     }
