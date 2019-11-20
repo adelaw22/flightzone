@@ -9,8 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <script src=" https://code.jquery.com/jquery-3.4.1.js"> </script>
+    <script src="https://kit.fontawesome.com/0ea5ebd7f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="modal-content">
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Pricing</a>
+    <a href="">Location</a>
+    <a href="">Faq</a>
+  </div>
   <div class="top_header">
     <div class=top_nav>
       <div class="top_logo">
@@ -23,6 +32,7 @@
           <a href="#">Location</a>
           <a href="#">Faq</a>
           <button class="btn_nav" type="button">Contact</button>
+          <i class="fas fa-bars"></i>
       </div>
       
     </div>
@@ -159,5 +169,21 @@
   <br>
    <p>Copyright 2019</p>
 </div>
+
+
+<script type="text/javascript">
+
+
+  $(document).ready(function () {
+    $('.fa-bars').click(function () {
+      $(".modal-content").slideDown();
+    })
+
+    $('.modal-content').click(function () {
+      $(".modal-content").slideUp();
+    })
+  });
+
+</script>
 </body>
 </html>
